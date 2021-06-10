@@ -45,6 +45,7 @@ body {
     stroke-dasharray: 294.5;
     stroke-dashoffset: 294.5;
     animation: line-anim 2s ease forwards 1.2s;
+    /*animation: textgrowth 1s infinite alternate;*/
 }
 
 #logo path:nth-child(6) {
@@ -68,6 +69,15 @@ body {
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes textgrowth {
+    0% {
+    font-size: 20px;
+    }
+    100% {
+    font-size: 25px;
     }
 }
 
