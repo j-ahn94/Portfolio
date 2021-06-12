@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
+#index-body {
     width: 100%;
     height: 100vh;
     animation: change-background 6s ease;
     animation-delay: 4.5s;
 }
-
-/* NEED TO CHANGE TO MAKE EASING OUT FIRST, AND THEN ZOOMING IN */
 
 
 #logo {
