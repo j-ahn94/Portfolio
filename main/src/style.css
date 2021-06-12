@@ -10,9 +10,7 @@ body {
 }
 
 /* NEED TO CHANGE TO MAKE EASING OUT FIRST, AND THEN ZOOMING IN */
-#log1 {
-    animation: zoom 5s ease-in;
-}
+
 
 #logo {
     position: absolute;
@@ -21,11 +19,7 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
     transform: translate(-50%, -50%);
-    animation: fill 0.5s ease forwards 3.5s;
-}
-
-#logo::after {
-    animation: textgrowth 1s infinite alternate;
+    animation: fill 0.5s ease forwards 3.5s, zoom 5s ease-in;
 }
 
 #logo path:nth-child(1) {
@@ -76,15 +70,6 @@ body {
     animation: line-anim 2s ease forwards 2.1s;
 }
 
-
-@keyframes textgrowth {
-    0% {
-    font-size: 20px;
-    }
-    100% {
-    font-size: 25px;
-    }
-}
 
 @keyframes line-anim{
     to{
