@@ -216,6 +216,16 @@ button {
     border-color: black;
 }
 
+a {
+    vertical-align: baseline;
+    background: transparent;
+}
+
+::-moz-selection {
+    background: #ff6060;
+    color: #373331; 
+}
+
 .hamburger {
     background-color: transparent;
     border: 0;
@@ -223,6 +233,12 @@ button {
     font-size: 20px;
     cursor: pointer;
     display: none;
+}
+
+.menu--active {
+    height: 100vh;
+    overflow: hidden;
+
 }
 
 .hamburger:focus {
@@ -243,6 +259,17 @@ button {
     }
   }
 
+.menu--active {
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.menu--active li a {
+    transform: translate3d(0, 0, 0);
+    transition: transform 500ms ease-out;
+
+}
 
 @media only screen and (max-width: 750px) {
     #menu-list {
@@ -251,6 +278,14 @@ button {
         
     }
 
+    .menu--active .menu {
+        width: 40%;
+    }
+
+    #menu-list a {
+        transform: translate3d(-150px, 0, 0);
+        transition: transform .15s ease-in;
+    }
     #menu-list.show {
         display: flex; 
     }
