@@ -1,3 +1,6 @@
-$("li").each(function(i) {
-    $(this).delay(10000 * i).fadeIn(5000);
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('menu-list')
+
+hamburger.addEventListener('click', () => {
+    navUL.classList.toggle('show');
 });

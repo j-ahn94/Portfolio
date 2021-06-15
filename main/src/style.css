@@ -148,7 +148,7 @@
     margin: 0 0 2em 0;
     padding: 0;
     list-style: none;
-    
+    flex-wrap: wrap;
 }
 
 #menu-list {
@@ -216,6 +216,18 @@ button {
     border-color: black;
 }
 
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
 @keyframes back-to-white {
     0% {
       background: black;
@@ -233,5 +245,23 @@ button {
 
 
 @media only screen and (max-width: 750px) {
-    
+    #menu-list {
+        display: none;
+        width: 100%;
+        
+    }
+
+    #menu-list.show {
+        display: flex; 
+    }
+
+    #resume {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-top: 0.2rem;
+        float: right;
+    }
 }
