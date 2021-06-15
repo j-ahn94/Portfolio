@@ -282,10 +282,6 @@ a {
         width: 40%;
     }
 
-    #menu-list a {
-        transform: translate3d(-150px, 0, 0);
-        transition: transform .15s ease-in;
-    }
     #menu-list.show {
         display: flex; 
     }
