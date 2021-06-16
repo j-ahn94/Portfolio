@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>J Portfolio</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body id = "main-body">
-    
-    <div id = "navigation-bar">
-        <div id = "logo">
-            <!-- Insert icon. Considering 'JA' similar to the front logo -->
-        </div>
-        
-        <button class="hamburger" id="hamburger">
-            <i class="fas fa-bars"></i>
-        </button>
-        
 
-        <div id = "resume">
-            <button type="button">Resume</button>
-        </div>
+<body class = "bodyIndex">
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg main-nav px-0">
+        <a class="navbar-brand" href="/mojo">
+					      <img src="./logo.png" alt="rajeshdas.com">
+					    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar icon-bar-1"></span>
+                        <span class="icon-bar icon-bar-2"></span>
+                        <span class="icon-bar icon-bar-3"></span>
+                    </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ml-auto text-uppercase f1" id = "navbars">
+            <li>
+              <a href="#home" class="active active-first"><span style="color: lightblue">01.</span>About</a>
+            </li>
+            <li>
+              <a href="#about"><span style="color: lightblue">02.</span>Experience</a>
+            </li>
+            <li>
+              <a href="#service"><span style="color: lightblue">03.</span>Work</a>
+            </li>
+            <li>
+              <a href="#project"><span style="color: lightblue">04.</span>projects</a>
+            </li>
+            
+          </ul>
 
-        <div id = "menu">
-            <span class = "menu-control-close" id = "menuControlClose"></span>
-            <ul id = "menu-list">
-                <li><a href="#"><span style="color: lightblue">04</span> Experience</a></li>
-                <li><a href="#"><span style="color: lightblue">03</span> Experience</a></li>
-                <li><a href="#"><span style="color: lightblue">02</span> Experience</a></li>
-                <li><a href="#"><span style="color: lightblue">01</span> Contact</a></li>
-            </ul>
-        </div>        
+          <div id = "resume">
+              <button type="button">Resume</button>
+          </div>
+        </div>
+      </nav>
     </div>
+    <!-- /.container -->
+  </header>
+  <!--
 
-    <script src="main.js"></script>
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Scripts -->
+  <script src="./index.js"></script>
+
 </body>
+
 </html>
