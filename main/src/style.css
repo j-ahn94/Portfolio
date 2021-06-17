@@ -126,7 +126,7 @@
 
 
 
-/* MAIN HTML STYLING */
+/* HEADING HTML STYLING */
 /*********************/
 /*********************/
 /*********************/
@@ -287,13 +287,17 @@
   .main-header.fixed-nav .navbar-brand > img:first-of-type {
     display: none;
   }
+
   .navbar-brand {
     color: black;
   }
+
   .main-header .navbar-brand img {
     max-width: 40px;
     animation: fadeInLeft 0.4s both 0.4s;
+    margin-left: -0.5rem;
   }
+
   /* main-header end */
   @media (max-width: 991px) {
     /*header starts*/
@@ -393,5 +397,19 @@
       background-color: #fff;
     }
   
+    
     /*header ends*/
   }
+
+/* FRONT PAGE INTRO HTML STYLING */
+/*********************/
+/*********************/
+/*********************/
+
+#front-page {
+    width: 80%;
+    margin: 10rem auto;
+    padding: 20px;
+      
+}
+
