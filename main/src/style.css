@@ -509,6 +509,21 @@
 
 
 
+/* SKILLS PAGE HTML STYLING */
+/*********************/
+/*********************/
+/*********************/
+
+#skills {
+    width: 80%;
+    margin: 300px auto;
+    padding: 20px;
+}
+
+#skills-list img {
+    margin-top: 50px;
+}
+
 
 
 
