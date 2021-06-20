@@ -524,6 +524,18 @@
     margin-top: 50px;
 }
 
+#skills-overall {
+    display: table-row;
+}
+
+#skills-list-left {
+    display: table-cell;
+}
+
+#skills-list-right {
+    display: table-cell;
+}
+
 
 
 
