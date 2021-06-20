@@ -526,14 +526,22 @@
 
 #skills-overall {
     display: table-row;
+    width: 100%;
 }
 
-#skills-list-left {
+#skills-list-one {
     display: table-cell;
+    padding-right: 3rem;
 }
 
-#skills-list-right {
+#skills-list-two {
     display: table-cell;
+    padding-right: 3rem;
+}
+
+#skills-list-three {
+    display: table-cell;
+    padding-right: 3rem;
 }
 
 
