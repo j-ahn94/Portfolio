@@ -551,6 +551,17 @@
     padding: 20px;
 }
 
+#information {
+    margin-top: 15px;
+    width: 70%;
+    
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#description {
+    margin-left: 1rem;
+}
 
 
 
