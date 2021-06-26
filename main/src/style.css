@@ -563,13 +563,23 @@
     margin-left: 1rem;
 }
 
+#sticky {
+    bottom: 0;
+    position: sticky;
+    margin-left: 5%;
+}
+
 #sticky-line {
     border-left: 2px solid black;
     height: 70px;
-    margin-left: 5%;
+    
     bottom: 0;
     position: sticky;
-    align-items: center;
+}
+
+#sticky-line #line {
+    margin-right: 0.5rem;
+    margin-bottom: -1rem;
 }
 
 
