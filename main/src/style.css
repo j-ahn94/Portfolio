@@ -563,19 +563,48 @@
     margin-left: 1rem;
 }
 
-#sticky {
+#sticky-line-left {
     bottom: 0;
     position: sticky;
     margin-left: 5%;
+    display: block;
 }
 
-#sticky-line {
-    border-left: 2px solid black;
-    height: 70px;
-    
+#sticky-line-right {
     bottom: 0;
     position: sticky;
+    margin-right: 5%;
+    display: block;
 }
+
+#github {
+    margin-left: -8px;
+    display: block;
+}
+
+#linkedin {
+    margin-left: -8px;
+    display: block;
+}
+
+#left-line {
+    border-left: 2px solid black;
+    height: 70px;
+    bottom: 0;
+    position: sticky;
+    display: block;
+}
+
+#right-line {
+    border-right: 2px solid black;
+    height: 70px;
+    bottom: 0;
+    position: sticky;
+    display: block;
+}
+
+
+
 
 #sticky-line #line {
     margin-right: 0.5rem;
