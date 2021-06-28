@@ -572,9 +572,19 @@
     margin-left: 5%;
 }
 
+#right-paragraph {
+    transform: rotate(90deg);
+    display: block;
+    margin-left: -5.2rem;
+    position: absolute;
+    margin-top: -7rem;
+}
+
 #right-line {
     border-right: 2px solid black;
     height: 70px;
+    float: left;
+    position: relative;
 }
 
 #sticky-line-left {
