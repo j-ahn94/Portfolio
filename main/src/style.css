@@ -554,7 +554,6 @@
 #information {
     margin-top: 15px;
     width: 70%;
-    
     border: 1px solid black;
     padding: 10px;
 }
@@ -563,18 +562,30 @@
     margin-left: 1rem;
 }
 
-#sticky-line-left {
+#overall {
     bottom: 0;
-    position: sticky;
-    margin-left: 5%;
-    display: block;
 }
 
 #sticky-line-right {
     bottom: 0;
-    position: sticky;
-    margin-right: 5%;
-    display: block;
+    position: fixed;
+    margin-left: 5%;
+}
+
+#right-line {
+    border-right: 2px solid black;
+    height: 70px;
+}
+
+#sticky-line-left {
+    bottom: 0;
+    position: fixed;
+    margin-left: 95%;
+}
+
+#left-line {
+    border-left: 2px solid black;
+    height: 70px;
 }
 
 #github {
@@ -587,29 +598,6 @@
     display: block;
 }
 
-#left-line {
-    border-left: 2px solid black;
-    height: 70px;
-    bottom: 0;
-    position: sticky;
-    display: block;
-}
-
-#right-line {
-    border-right: 2px solid black;
-    height: 70px;
-    bottom: 0;
-    position: sticky;
-    display: block;
-}
-
-
-
-
-#sticky-line #line {
-    margin-right: 0.5rem;
-    margin-bottom: -1rem;
-}
 
 
 
