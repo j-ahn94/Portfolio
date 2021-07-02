@@ -127,32 +127,48 @@
         <div id="work-experiences">
             <h3><span style="color: lightblue">03. </span> Work Experiences</h3>
         </div>
-        <div class="list-group" id="myList" role="tablist">
-            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#rcmp" role="tab">Royal
-                Canadian Mounted Police</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#national-defence"
-                role="tab">National Defence</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#vcn" role="tab">Vancouver
-                Community Network</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#cra" role="tab">Canada Revenue
-                Agency</a>
+        <div id = "experience-info">
+            <div class="list-group" id="myList" role="tablist">
+                <a class="list-group-item list-group-item-action active bg-light text-dark" data-toggle="list" href="#rcmp" role="tab">Royal
+                    Canadian Mounted Police</a>
+                <a class="list-group-item list-group-item-action bg-light text-dark" data-toggle="list" href="#national-defence"
+                    role="tab">National Defence</a>
+                <a class="list-group-item list-group-item-action bg-light text-dark" data-toggle="list" href="#vcn" role="tab">Vancouver
+                    Community Network</a>
+                <a class="list-group-item list-group-item-action bg-light text-dark" data-toggle="list" href="#cra" role="tab">Canada Revenue
+                    Agency</a>
+            </div>
+    
+            <div class="tab-content" id="information">
+                <div class="tab-pane active fade show active" id="rcmp" role="tabpanel">
+                    <h6>Information Management Specialist @ RCMP</h6>
+                    <p>January 2019 - December 2020</p>
+                    <ul id="description">
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                        <li>four</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="national-defence" role="tabpanel">...</div>
+                <div class="tab-pane fade" id="vcn" role="tabpanel">...</div>
+                <div class="tab-pane fade" id="cra" role="tabpanel">TEST</div>
+            </div>
         </div>
 
-        <div class="tab-content" id="information">
-            <div class="tab-pane active fade show active" id="rcmp" role="tabpanel">
-                <h6>Information Management Specialist @ RCMP</h6>
-                <p>January 2019 - December 2020</p>
-                <ul id="description">
-                    <li>one</li>
-                    <li>two</li>
-                    <li>three</li>
-                    <li>four</li>
-                </ul>
-            </div>
-            <div class="tab-pane fade" id="national-defence" role="tabpanel">...</div>
-            <div class="tab-pane fade" id="vcn" role="tabpanel">...</div>
-            <div class="tab-pane fade" id="cra" role="tabpanel">TEST</div>
+    <div id = "projects">
+        <div id="my-projects">
+            <h3><span style="color: lightblue">04. </span> Projects </h3>
         </div>
+
+        <div id = "we-cycle">
+            <img src = "./photos/we-cycle.png" width = "80%" height = "auto">
+            <div id = "we-cycle-description">
+                <p id = "we-cycle-heading">Featured project</p>
+                <h5 id = "we-cycle-title">Wecycle</h5>
+            </div>
+        </div>
+    </div>
 
         <script>
             $('#myList a[href="#profile"]').tab('show') // Select tab by name
@@ -187,15 +203,6 @@
     
 
     </div>
-    <!--
-
-    
-    Wow! What do you want to build?
-
-    You have so many possibilities right now... Looking for something to kick off?
-    How about a simple folio page to show off everything you're going to make!
-   
-  -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
