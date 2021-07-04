@@ -602,14 +602,15 @@ li:before {
 #right-paragraph {
     transform: rotate(90deg);
     display: block;
-    margin-left: -5.2rem;
+    margin-left: -6.5rem;
     position: absolute;
-    margin-top: -7rem;
+    margin-top: -8rem;
 }
 
 #right-paragraph a {
     color: black;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 #right-line {
@@ -651,7 +652,23 @@ li:before {
     display: flex;
 }
 
+#we-cycle-description {
+    margin-left: 35%;
+}
 
+#we-cycle-heading span {
+    white-space: nowrap;
+}
+
+#we-cycle-title {
+    font-size: 1.5rem;
+}
+
+#we-cycle-paragraph {
+    border: 1px solid black;
+    display: flex;
+    
+}
 
 
 
