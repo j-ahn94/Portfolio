@@ -668,14 +668,14 @@ li:before {
 }
 
 #we-cycle-paragraph {
-    border: 1px solid black;
+    border: 1px solid transparent;
     padding: 10px;
     width: 400px;
     margin-left: -5%;
     margin-top: 25px;
     font-size: 1.2rem;
     position: absolute;
-    background-color: rgb(195, 216, 223);
+    background-color: rgb(218, 224, 226);
     border-radius: 10px;
 }
 
