@@ -670,29 +670,51 @@ li:before {
 #we-cycle-paragraph {
     border: 1px solid transparent;
     padding: 10px;
-    width: 400px;
+    width: 350px;
     margin-left: -5%;
     margin-top: 25px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     position: absolute;
     background-color: rgb(218, 224, 226);
     border-radius: 10px;
 }
 
-#direct-link {
+#we-cycle-direct-link {
     margin-top: 20rem;
     margin-left: -4rem;
 }
 
 #jsonahn {
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-left: 5rem;
+    display: flex;
 }
 
 #jsonahn-image {
     float: right;
+    margin-left: 4rem;
 }
 
+#jsonahn-description {
+    margin-left: 3rem;
+}
 
+#jsonahn-heading span {
+    white-space: nowrap;
+    margin-right: 35%;
+}
+
+#jsonahn-paragraph {
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 350px;
+    margin-left: -5%;
+    margin-top: 25px;
+    font-size: 1.0rem;
+    position: absolute;
+    background-color: rgb(218, 224, 226);
+    border-radius: 10px;
+}
 
 
 
