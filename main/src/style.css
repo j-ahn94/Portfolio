@@ -650,7 +650,7 @@ li:before {
 
 #we-cycle {
     display: flex;
-    
+    margin-top: 30px;
 }
 
 #we-cycle-image {
@@ -716,7 +716,11 @@ li:before {
     border-radius: 10px;
 }
 
-
+#json-direct-link {
+    position: relative;
+    margin-top: 20rem;
+    margin-left: -7rem;
+}
 
 
 
