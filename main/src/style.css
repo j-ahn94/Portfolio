@@ -723,5 +723,20 @@ li:before {
 }
 
 
+#next {
+    width: 100%;
+    margin: 300px auto;
+    margin-left: -30px;
+    padding: 20px;
+}
 
+#get-in-touch h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3.5rem;
+}
 
+#opportunities h5 {
+    text-align: center;
+    margin-top: 15px;
+}
