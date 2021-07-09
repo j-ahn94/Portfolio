@@ -154,6 +154,10 @@
 
 .bodyIndex {
     animation: back-to-white 3s ease;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
   @keyframes back-to-white {
@@ -749,6 +753,7 @@ li:before {
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
+    
 	color:#666666;
 	font-family:Verdana;
 	font-size:15px;
@@ -766,4 +771,8 @@ li:before {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+#footer {
+    margin-bottom: -150px;
 }
