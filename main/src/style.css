@@ -154,7 +154,6 @@
 
 .bodyIndex {
     animation: back-to-white 3s ease;
-    
 }
 
   @keyframes back-to-white {
@@ -728,6 +727,7 @@ li:before {
     margin: 300px auto;
     margin-left: -30px;
     padding: 20px;
+    margin: 0;
 }
 
 #get-in-touch h3 {
@@ -755,13 +755,14 @@ li:before {
 	padding:10px 35px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-    text-align: center;
 }
 
 .myButton:hover {
 	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
 	background-color:#f6f6f6;
+    text-decoration: none;
 }
+
 .myButton:active {
 	position:relative;
 	top:1px;
