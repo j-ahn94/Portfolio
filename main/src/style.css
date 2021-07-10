@@ -726,6 +726,13 @@ li:before {
 }
 
 
+
+#get-in-touch h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
 #next {
     width: 100%;
     margin: 300px auto;
@@ -734,15 +741,22 @@ li:before {
     margin: 0;
 }
 
-#get-in-touch h3 {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 3.5rem;
-}
-
 #opportunities h5 {
     text-align: center;
     margin-top: 15px;
+}
+
+#opportunities {
+    position: relative;
+}
+
+#footer-paragraph {
+    height: 50px;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 .myButton {
@@ -753,7 +767,7 @@ li:before {
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-    
+    text-align: center;
 	color:#666666;
 	font-family:Verdana;
 	font-size:15px;
@@ -773,6 +787,4 @@ li:before {
 	top:1px;
 }
 
-#footer {
-    margin-bottom: -150px;
-}
+
