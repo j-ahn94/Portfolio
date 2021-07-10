@@ -562,7 +562,6 @@
 }
 
 #information {
-    
     width: 50%;
     border: 1px solid transparent;
     padding: 10px;
@@ -633,6 +632,8 @@ li:before {
 
 #footer-paragraph {
     font-size: 0.8rem;
+    bottom: 0;
+    position: relative;
 }
 
 #sticky-line-left {
@@ -799,4 +800,6 @@ li:before {
 	top:1px;
 }
 
-
+#last-button {
+    text-align: center;
+}
