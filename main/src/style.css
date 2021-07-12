@@ -200,11 +200,21 @@
       animation-delay: 1.2s;
   }
 
+  #resume {
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
   #resume button {
       animation: fadeIn 1s ease-in both;
       animation-delay: 1.5s;
+      text-align: center;
   }
   
+  #resume-button {
+      text-align: center;
+  }
+
   @keyframes fadeIn {
 	from {
 		opacity: 0;
