@@ -623,6 +623,15 @@
 
 #description-text-one {
     line-height: 2.0;
+    display: clear;
+}
+
+#profile-pic {
+    float: right;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 #description-text-two {
