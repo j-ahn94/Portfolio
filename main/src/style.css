@@ -317,7 +317,12 @@
     #mainMenu {
         background-color: rgb(233, 227, 227);
         height: 100rem;
+        width: 100%;
     }
+
+    /*.navbar-brand {
+      margin-left: -200px;
+    }*/
 
     #mainMenu a {
         text-align: center;
@@ -368,7 +373,7 @@
       height: 40px;
       position: absolute;
       top: 25px;
-      right: 0;
+      right: 0px;
       border: none;
       border-radius: 0;
       outline: none !important;
@@ -544,6 +549,12 @@
     #code {
         font-size: 7vw;
     }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand img {
+    width: 300px;
+  }
 }
 
 /* ABOUT ME PAGE HTML STYLING */
