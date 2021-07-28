@@ -549,6 +549,11 @@
     #code {
         font-size: 7vw;
     }
+
+    #profile-pic {
+      float: none;
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -556,15 +561,24 @@
     margin-left: 30px;
   }
 
+  #profile-pic {
+    float: none;
+    width: 100%;
+  }
+
+  #description-text-one {
+    font-size: 3.5vw;
+  }
+
+  #description-text-two {
+    font-size: 3.5vw;
+  }
   /* NAVBAR DOESN"T MOVE TO LEFT */
   #mainMenu {
     margin-right: 200px;
   }
 
-  #profile-pic {
-    float: none;
-  }
-  
+
 }
 @media screen and (max-width: 400px) {
   .navbar-brand img {
@@ -649,7 +663,7 @@
 
 #description-text-one {
     line-height: 2.0;
-    display: clear;
+    /*display: clear;*/
 }
 
 #profile-pic {
