@@ -570,6 +570,7 @@
 
   #jsonahn-description {
     margin-top: 400px;
+    position: absolute;
   }
 }
 @media screen and (max-width: 900px) {
@@ -616,10 +617,6 @@
       font-size: 4vw;
     }
 
-    #we-cycle-image {
-      width: 100%;
-      height: auto;
-    }
 }
 
 @media screen and (max-width: 575px) {
@@ -646,6 +643,37 @@
   .navbar-brand img {
     width: 300px;
   }
+
+  #we-cycle-direct-link {
+    position: relative;
+    margin-bottom: 150px;
+  }
+
+  #we-cycle-description {
+    position: absolute;
+    margin-bottom: -100px;
+  }
+
+  #we-cycle-heading {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  #we-cycle-paragraph{
+    border: 10px solid transparent;
+    padding: 10px;
+    width: 100px;
+    margin-left: -5%;
+    margin-top: 25px;
+    font-size: 1.0rem;
+    position: absolute;
+    background-color: rgb(218, 224, 226);
+    border-radius: 5px;
+  }
+
+
+
+
 }
 
 /* ABOUT ME PAGE HTML STYLING */
@@ -831,10 +859,19 @@ li:before {
     margin-top: 30px;
 }
 
+#jsonahn {
+  display: flex;
+}
+
 #we-cycle-image {
     position: relative;
-    width: 80%;
+
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    margin:auto;
+    width: 100%; 
+    max-width: 100%; 
     height: auto;
+    object-fit: cover;
 }
 
 #we-cycle-heading span {
@@ -850,7 +887,7 @@ li:before {
 #we-cycle-paragraph {
     border: 1px solid transparent;
     padding: 10px;
-    width: 350px;
+    width: 20rem;
     margin-left: -5%;
     margin-top: 25px;
     font-size: 1.0rem;
@@ -871,12 +908,20 @@ li:before {
 }
 
 #jsonahn-image {
+    margin-left: 10rem;
     float: right;
-    margin-left: 4rem;
+    margin-top: 180px;
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
 }
 
 #jsonahn-description {
-    margin-left: 3rem;
+    margin-left: 1rem;
+    margin-top: 400px;
+    position: absolute;
 }
 
 #jsonahn-heading span {
@@ -894,12 +939,13 @@ li:before {
     position: absolute;
     background-color: rgb(218, 224, 226);
     border-radius: 10px;
+
 }
 
 #json-direct-link {
-    position: relative;
-    margin-top: 20rem;
-    margin-left: -7rem;
+    position: absolute;
+    margin-top: 28rem;
+    margin-left: 7rem;
 }
 
 #get-in-touch h3 {
