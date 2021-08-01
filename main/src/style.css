@@ -235,9 +235,16 @@
 	}
 }
 
+#resume {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 25px;
+}
+
   #resume button {
-      border-radius: 5px;
-      margin-left: 1.0rem;
+      border-radius: 20px;
       background: none;
       border: none;
       color: black;
@@ -548,6 +555,22 @@
     font-size: 3vw;
   }
 
+  #we-cycle-image {
+    width: 100%;
+    height: auto;
+    
+  }
+
+  #we-cycle-description {
+    position: absolute;
+    margin-top: 400px;
+    text-align: center;
+    margin-right: 50%;
+  }
+
+  #jsonahn-description {
+    margin-top: 400px;
+  }
 }
 @media screen and (max-width: 900px) {
     #hello {
@@ -561,6 +584,13 @@
     #code {
         font-size: 5vw;
     }
+}
+
+@media screen and (max-width: 850px) {
+  #we-cycle-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -584,6 +614,11 @@
 
     .pricing-header {
       font-size: 4vw;
+    }
+
+    #we-cycle-image {
+      width: 100%;
+      height: auto;
     }
 }
 
@@ -798,6 +833,8 @@ li:before {
 
 #we-cycle-image {
     position: relative;
+    width: 80%;
+    height: auto;
 }
 
 #we-cycle-heading span {
