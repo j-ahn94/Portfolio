@@ -671,9 +671,30 @@
     border-radius: 5px;
   }
 
+  #jsonahn-description {
+    margin-top: 50px;
+    position: relative;
+  }
 
+  #jsonahn-image-div {
+    margin-right: 10rem;
+    
+    flex-wrap: none;
+  }
 
-
+  #jsonahn-description {
+    margin-top: -10rem;
+  }
+  #jsonahn-image {
+    float: right;
+    margin-top: 180px;
+    margin-right: 100px;
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
 }
 
 /* ABOUT ME PAGE HTML STYLING */
@@ -907,6 +928,7 @@ li:before {
     display: flex;
 }
 
+
 #jsonahn-image {
     margin-left: 10rem;
     float: right;
@@ -920,7 +942,7 @@ li:before {
 
 #jsonahn-description {
     margin-left: 1rem;
-    margin-top: 400px;
+    margin-top: 450px;
     position: absolute;
 }
 
@@ -944,7 +966,7 @@ li:before {
 
 #json-direct-link {
     position: absolute;
-    margin-top: 28rem;
+    margin-top: 30rem;
     margin-left: 7rem;
 }
 
