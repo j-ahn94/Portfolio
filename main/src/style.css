@@ -555,23 +555,25 @@
     font-size: 3vw;
   }
 
+  #we-cycle {
+    display: block;
+    margin-bottom: 200px;
+  }
+
   #we-cycle-image {
     width: 100%;
     height: auto;
-    
+    margin-bottom: 100px;
   }
 
   #we-cycle-description {
-    position: absolute;
-    margin-top: 400px;
+    margin-top: 150px;
     text-align: center;
-    margin-right: 50%;
+    margin-right: 10%;
   }
 
-  #jsonahn-description {
-    margin-top: 400px;
-    position: absolute;
-  }
+  
+
 }
 @media screen and (max-width: 900px) {
     #hello {
@@ -587,11 +589,23 @@
     }
 }
 
-@media screen and (max-width: 850px) {
-  #we-cycle-image {
+@media screen and (max-width: 830px) {
+  #we-cycle-image-div {
     width: 100%;
     height: auto;
   }
+  
+  #we-cycle-description {
+    margin-top: 300px;
+    text-align: center;
+    margin-left: -80%;
+  }
+
+  #we-cycle-direct-link-wrapper {
+    margin-left: 120px;
+  }
+
+  /* WE CYCLE DIRECT LINK IS HIDDEN HERE FOR SOME REASON */
 }
 
 @media screen and (max-width: 600px) {
@@ -615,6 +629,17 @@
 
     .pricing-header {
       font-size: 4vw;
+    }
+
+    #we-cycle-image-div {
+      width: 100%;
+      height: auto;
+    }
+    
+    #we-cycle-description {
+      margin-top: 300px;
+      text-align: center;
+      margin-left: -80%;
     }
 
 }
@@ -644,47 +669,48 @@
     width: 300px;
   }
 
-  #we-cycle-direct-link {
-    position: relative;
-    margin-bottom: 150px;
+  #my-projects {
+    margin-bottom: -150px;
   }
-
+  
+  #we-cycle {
+    flex-wrap: none;
+  }
+  
   #we-cycle-description {
+    margin-bottom: 10rem;
     position: absolute;
-    margin-bottom: -100px;
+    margin-left: -1rem;
+    margin-top: 27rem;
   }
 
-  #we-cycle-heading {
-    position: relative;
-    margin-bottom: 10px;
+  #we-cycle-image-div {
+    margin-top: 200px;
+    position: absolute;
+    margin-left: -1rem;
   }
 
-  #we-cycle-paragraph{
-    border: 10px solid transparent;
-    padding: 10px;
-    width: 100px;
-    margin-left: -5%;
-    margin-top: 25px;
-    font-size: 1.0rem;
-    position: absolute;
-    background-color: rgb(218, 224, 226);
-    border-radius: 5px;
+  #we-cycle-image {
+    float: right;
+    margin-top: 180px;
+    flex-wrap: none;
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
   }
 
   #jsonahn-description {
-    margin-top: 50px;
-    position: relative;
+    margin-bottom: 10rem;
+    position: absolute;
   }
 
   #jsonahn-image-div {
     margin-right: 10rem;
-    
     flex-wrap: none;
   }
 
-  #jsonahn-description {
-    margin-top: -10rem;
-  }
   #jsonahn-image {
     float: right;
     margin-top: 180px;
@@ -695,6 +721,7 @@
     height: auto;
     object-fit: cover;
 }
+
 }
 
 /* ABOUT ME PAGE HTML STYLING */
@@ -885,7 +912,7 @@ li:before {
 }
 
 #we-cycle-image {
-    position: relative;
+    
 
     /* NEW IMPLEMENTATION OF RESPONSIVENESS */
     margin:auto;
@@ -941,8 +968,8 @@ li:before {
 }
 
 #jsonahn-description {
-    margin-left: 1rem;
-    margin-top: 450px;
+    margin-left: -100px;
+    margin-top: 350px;
     position: absolute;
 }
 
@@ -966,8 +993,8 @@ li:before {
 
 #json-direct-link {
     position: absolute;
-    margin-top: 30rem;
-    margin-left: 7rem;
+    margin-top: 24rem;
+    margin-left: -40px;
 }
 
 #get-in-touch h3 {
@@ -1033,13 +1060,6 @@ li:before {
 #last-button {
     text-align: center;
 }
-
-
-
-
-
-
-
 
 
 *, *:before, *:after {
