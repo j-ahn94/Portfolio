@@ -605,6 +605,34 @@
     margin-left: 120px;
   }
 
+  #good-cop-bad-cop {
+    margin-top: 150px;
+    margin-left: 5rem;
+    display: flex;
+
+  }
+
+  #good-cop-bad-cop-image-div {
+    width: 100%;
+    height: auto;
+  }
+  
+  #good-cop-bad-cop-description {
+    margin-top: 300px;
+    text-align: center;
+    margin-left: -80%;
+  }
+
+  #good-cop-bad-cop-title {
+    margin-right: -300px;
+    width: 200%;
+  }
+  
+  #good-cop-bad-cop-direct-link {
+    margin-left: 75px;
+    margin-top: 320px;
+  }
+
   /* WE CYCLE DIRECT LINK IS HIDDEN HERE FOR SOME REASON */
 }
 
@@ -637,6 +665,17 @@
     }
     
     #we-cycle-description {
+      margin-top: 300px;
+      text-align: center;
+      margin-left: -80%;
+    }
+
+    #good-cop-bad-cop-image-div {
+      width: 100%;
+      height: auto;
+    }
+
+    #good-cop-bad-cop-description {
       margin-top: 300px;
       text-align: center;
       margin-left: -80%;
@@ -681,7 +720,7 @@
     margin-bottom: 10rem;
     position: absolute;
     margin-left: -1rem;
-    margin-top: 27rem;
+    margin-top: 29rem;
   }
 
   #we-cycle-image-div {
@@ -701,12 +740,58 @@
     object-fit: cover;
   }
 
+  #we-cycle-direct-link-wrapper {
+    position: relative;
+    margin-left: 12rem;
+    margin-top: 9rem;
+  }
+
+  #good-cop-bad-cop {
+    flex-wrap: none;
+    margin-left: -2rem;
+  }
+
+  #good-cop-bad-cop-description {
+    margin-bottom: 10rem;
+    position: absolute;
+    margin-left: -1rem;
+    margin-top: 29rem;
+  }
+
+  #good-cop-bad-cop-image-div {
+    margin-top: 200px;
+    position: absolute;
+    margin-left: -1rem;
+  }
+  
+  #good-cop-bad-cop-image {
+    float: right;
+    margin-top: 180px;
+    flex-wrap: none;
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+
+  #good-cop-bad-cop-link-wrapper {
+    position: relative;
+    margin-left: 12rem;
+    margin-top: 9rem;
+  }
+
+  #jsonahn {
+    margin-bottom: -100px;
+  }
   #jsonahn-description {
+    margin-top: 300px;
     margin-bottom: 10rem;
     position: absolute;
   }
 
   #jsonahn-image-div {
+    margin-top: 50px;
     margin-right: 10rem;
     flex-wrap: none;
   }
@@ -722,6 +807,40 @@
     object-fit: cover;
 }
 
+#rcmp-crime-report {
+  flex-wrap: none;
+  margin-bottom: 300px;
+}
+
+#rcmp-crime-report-description {
+  margin-bottom: 10rem;
+  position: absolute;
+  margin-left: -1rem;
+  margin-top: 29rem;
+}
+
+#rcmp-crime-report-image-div {
+  margin-top: 120px;
+  position: absolute;
+  margin-left: -1rem;
+}
+
+#rcmp-crime-report-image {
+  float: right;
+  margin-top: 180px;
+  flex-wrap: none;
+  /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
+}
+
+#rcmp-crime-report-link-wrapper {
+  position: relative;
+  margin-left: -1rem;
+  margin-top: 1rem;
+}
 }
 
 /* ABOUT ME PAGE HTML STYLING */
@@ -905,21 +1024,55 @@ li:before {
 #we-cycle {
     display: flex;
     margin-top: 30px;
-}
-
-#jsonahn {
-  display: flex;
+    margin-bottom: 100px;
 }
 
 #we-cycle-image {
-    
-
     /* NEW IMPLEMENTATION OF RESPONSIVENESS */
     margin:auto;
     width: 100%; 
     max-width: 100%; 
     height: auto;
     object-fit: cover;
+}
+
+#good-cop-bad-cop {
+  display: flex;
+}
+
+#good-cop-bad-cop-image {
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#good-cop-bad-cop-heading span {
+  white-space: nowrap;
+  margin-left: 35%;
+}
+
+#good-cop-bad-cop-title {
+  font-size: 1.3rem;
+  margin-left: 35%;
+  width: 200%;
+}
+
+#good-cop-bad-cop-paragraph {
+  border: 1px solid transparent;
+    padding: 10px;
+    width: 20rem;
+    margin-left: -5%;
+    margin-top: 25px;
+    font-size: 1.0rem;
+    position: absolute;
+    background-color: rgb(218, 224, 226);
+    border-radius: 10px;
+}
+
+#good-cop-bad-cop-link-wrapper {
+  margin-left: 3rem;
 }
 
 #we-cycle-heading span {
@@ -954,7 +1107,6 @@ li:before {
     margin-left: 5rem;
     display: flex;
 }
-
 
 #jsonahn-image {
     margin-left: 10rem;
@@ -995,6 +1147,53 @@ li:before {
     position: absolute;
     margin-top: 24rem;
     margin-left: -40px;
+}
+
+#rcmp-crime-report {
+  margin-top: 150px;
+  margin-left: 5rem;
+  display: flex;
+}
+
+#rcmp-crime-report-image {
+  margin-left: 10rem;
+  float: right;
+  margin-top: 180px;
+  /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+  width: 100%; 
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
+}
+
+#rcmp-crime-report-description {
+  margin-left: -100px;
+  margin-top: 500px;
+  position: absolute;
+}
+
+#rcmp-crime-report-heading span {
+  white-space: nowrap;
+  margin-right: 35%;
+}
+
+#rcmp-crime-report-paragraph {
+  border: 1px solid transparent;
+  padding: 10px;
+  width: 350px;
+  margin-left: -5%;
+  margin-top: 25px;
+  font-size: 1.0rem;
+  position: absolute;
+  background-color: rgb(218, 224, 226);
+  border-radius: 10px;
+
+}
+
+#rcmp-crime-report-direct-link {
+  position: absolute;
+  margin-top: 31rem;
+  margin-left: 30px;
 }
 
 #get-in-touch h3 {
