@@ -51,7 +51,7 @@
                     </ul>
 
                     <div id="resume">
-                        <a href = "../resume/JasonAhn_Resume.pdf" download>
+                        <a href = "../../resume/JasonAhn_Resume.pdf" download>
                             <button type="button" id = "resume-button">RESUME</button>
                         </a>
                     </div>
@@ -275,7 +275,7 @@
                   </li>
                   <li>
                     <div class="cbp_tmicon cbp_tmicon-phone">
-                      <i class="faPra fa-briefcase"></i>
+                      <i class="fas fa-briefcase"></i>
                     </div>
                     <div class="cbp_tmlabel wow fadeInRight animated">
                       <h3>Employer Accounts Agent</h3>
@@ -467,6 +467,13 @@
 
             prevScrollpos = currentScrollpos;
         }
+
+        $(function(){
+            var navMain = $("#mainMenu");
+            navMain.on("click", "a", null, function() {
+                navMain.collapse('hide');
+            });
+        });
     </script>
     <script src="./index.js"></script>
     <script src="./workExperience.js"></script>
