@@ -1558,7 +1558,7 @@ margin-left: 20px;
   }
   
   .pricing-features {
-    color: #016FF9;
+    color: black;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 50px 0 25px;
@@ -1656,6 +1656,7 @@ margin-left: 20px;
     height: 100%;
     position: relative;
     margin-left: 00px;
+    background: white;
   }
   /********************************/
   /*  SECTION WORK EXPERIENCE
@@ -1810,6 +1811,10 @@ margin-left: 20px;
     position: relative;
   }
   
+  .sectionClass {
+    background: white;
+  }
+
   .sectionClassProject {
     position: relative;
     display: block;
